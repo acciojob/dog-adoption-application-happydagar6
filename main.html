@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Adoption Application</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,27 +13,27 @@
         <form action="#">
             
             <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Name" required>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
             </div>
 
             <div class="form-group">
                 <label for="phone">Phone Number</label>
-                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="phone" placeholder="Phone Number">
             </div>
 
             <div class="form-group">
-                <label for="address">Current Address</label>
-                <input type="text" id="address" placeholder="Address" required>
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address">
             </div>
 
-            <div class="form-group checkbox-group">
+            <div class="form-group">
                 <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
-                <label for="checkbox">Have you ever lived with a Dog before?</label>
+                <label for="checkbox" style="display:inline;">Have you ever lived with a Dog before?</label>
             </div>
 
             <div class="form-group">
-                <label for="multiSelect">Select your preferred breeds (Hold Ctrl/Cmd to select multiple):</label>
+                <label for="multiSelect">Please select your preferred breeds:</label>
                 <select id="multiSelect" multiple>
                     <option value="golden-retriever">Golden Retriever</option>
                     <option value="poodle">Poodle</option>
